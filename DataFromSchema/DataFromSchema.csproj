@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+   <LangVersion>10.0</LangVersion>
+    <Title>Veritabanı varlıklarından Json şemasına göre dinamik nesne elde edilmektedir</Title>
+    <Description>Liste yada nesneden bir json schemasına göre dynamic nesne edilmektedir.</Description>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl>https://github.com/ahmetyayla/DataFromSchemaProject</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ahmetyayla/DataFromSchemaProject</RepositoryUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>Ahmet YAYLA</Company>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>Json,Schema,Convert,Dynamic </PackageTags>
+    <Version>1.0.2</Version>
+    <Authors>Ahmet YAYLA</Authors>
+    <PackageReleaseNotes>Linq SQL desteği getirilmiştir.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\git\DataFromSchema\DataFromSchemaProject\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
