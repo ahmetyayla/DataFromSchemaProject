@@ -19,7 +19,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\git\DataFromSchema\DataFromSchemaProject\README.md">
+    <None Include="..\..\..\..\git\DataFromSchema\DataFromSchemaProject\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
